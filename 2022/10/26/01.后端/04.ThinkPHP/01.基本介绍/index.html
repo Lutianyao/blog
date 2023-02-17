@@ -1,0 +1,367 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>基本介绍 | Sky</title><meta name="author" content="Sky"><meta name="copyright" content="Sky"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="基本介绍简介ThinkPHP是一个快速、简单的基于MVC和面向对象的轻量级PHP开发框架，遵循Apache2开源协议发布， 自2006年诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简代码的同时，尤其注重开发体验和易用性， 并且拥有众多的原创功能和特性，为WEB应用和API开发提供了强有力的支持。  安装ThinkPHP12345678&#x2F;&#x2F; 安装稳定版命令composer create-">
+<meta property="og:type" content="article">
+<meta property="og:title" content="基本介绍">
+<meta property="og:url" content="https://github.com/Lutianyao/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/01.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/index.html">
+<meta property="og:site_name" content="Sky">
+<meta property="og:description" content="基本介绍简介ThinkPHP是一个快速、简单的基于MVC和面向对象的轻量级PHP开发框架，遵循Apache2开源协议发布， 自2006年诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简代码的同时，尤其注重开发体验和易用性， 并且拥有众多的原创功能和特性，为WEB应用和API开发提供了强有力的支持。  安装ThinkPHP12345678&#x2F;&#x2F; 安装稳定版命令composer create-">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.dmoe.cc/random.php">
+<meta property="article:published_time" content="2022-10-25T16:18:09.000Z">
+<meta property="article:modified_time" content="2023-02-13T15:26:49.573Z">
+<meta property="article:author" content="Sky">
+<meta property="article:tag" content="ThinkPHP">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.dmoe.cc/random.php"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link rel="canonical" href="https://github.com/Lutianyao/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/01.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/blog/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?a9ae05fc66a9d54ad00c511caba5c2b3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/blog/',
+  algolia: undefined,
+  localSearch: {"path":"/blog/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":1,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '基本介绍',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-02-13 23:26:49'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = url => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      link.onload = () => resolve()
+      link.onerror = () => reject()
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/icon.css"><link rel="stylesheet" href="/css/scrollbar.css"><script src="/live2d-widget/autoload.js"></script><meta name="generator" content="Hexo 6.3.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">57</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heartbeat"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/bilibili/"><i class="fa-fw fas fa-video"></i><span> 番剧</span></a></li><li><a class="site-page child" href="/blog/gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://www.dmoe.cc/random.php')"><nav id="nav"><span id="blog-info"><a href="/blog/" title="Sky"><img class="site-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/favicon.ico"/><span class="site-name">Sky</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/blog/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/blog/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/blog/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/blog/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heartbeat"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/bilibili/"><i class="fa-fw fas fa-video"></i><span> 番剧</span></a></li><li><a class="site-page child" href="/blog/gallery/"><i class="fa-fw fas fa-images"></i><span> 图库</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/blog/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">基本介绍</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-10-25T16:18:09.000Z" title="发表于 2022-10-26 00:18:09">2022-10-26</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-02-13T15:26:49.573Z" title="更新于 2023-02-13 23:26:49">2023-02-13</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E5%90%8E%E7%AB%AF/">后端</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/blog/categories/%E5%90%8E%E7%AB%AF/ThinkPHP/">ThinkPHP</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="基本介绍"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h1><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><pre><code>ThinkPHP是一个快速、简单的基于MVC和面向对象的轻量级PHP开发框架，遵循Apache2开源协议发布，
+自2006年诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简代码的同时，尤其注重开发体验和易用性，
+并且拥有众多的原创功能和特性，为WEB应用和API开发提供了强有力的支持。
+</code></pre>
+<h3 id="安装ThinkPHP"><a href="#安装ThinkPHP" class="headerlink" title="安装ThinkPHP"></a>安装ThinkPHP</h3><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">// 安装稳定版命令</span><br><span class="line">composer create-project topthink/think tp</span><br><span class="line"></span><br><span class="line">// 更新升级命令</span><br><span class="line">composer update topthink/framework</span><br><span class="line"></span><br><span class="line">// 安装开发版命令(适合学习)</span><br><span class="line">composer create-project topthink/think=6.0.x-dev tp</span><br></pre></td></tr></table></figure>
+
+<h3 id="测试运行"><a href="#测试运行" class="headerlink" title="测试运行"></a>测试运行</h3><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">// 运行命令</span><br><span class="line">php think run</span><br><span class="line"></span><br><span class="line">// 执行运行命令后在浏览器输入</span><br><span class="line">http://localhost:8000/</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注意的是在实际开发中测试时，应该配置虚拟主机并且域名绑定public目录，确保不是项目根目录</p>
+</blockquote>
+<h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><p><strong>单应用模式目录结构</strong></p>
+<pre><code>www  WEB部署目录（或者子目录）
+├─app           应用目录
+│  ├─controller      控制器目录
+│  ├─model           模型目录
+│  ├─ ...            更多类库目录
+│  │
+│  ├─common.php         公共函数文件
+│  └─event.php          事件定义文件
+│
+├─config                配置目录
+│  ├─app.php            应用配置
+│  ├─cache.php          缓存配置
+│  ├─console.php        控制台配置
+│  ├─cookie.php         Cookie配置
+│  ├─database.php       数据库配置
+│  ├─filesystem.php     文件磁盘配置
+│  ├─lang.php           多语言配置
+│  ├─log.php            日志配置
+│  ├─middleware.php     中间件配置
+│  ├─route.php          URL和路由配置
+│  ├─session.php        Session配置
+│  ├─trace.php          Trace配置
+│  └─view.php           视图配置
+│
+├─view            视图目录
+├─route                 路由定义目录
+│  ├─route.php          路由定义文件
+│  └─ ...   
+│
+├─public                WEB目录（对外访问目录）
+│  ├─index.php          入口文件
+│  ├─router.php         快速测试文件
+│  └─.htaccess          用于apache的重写
+│
+├─extend                扩展类库目录
+├─runtime               应用的运行时目录（可写，可定制）
+├─vendor                Composer类库目录
+├─.example.env          环境变量示例文件
+├─composer.json         composer 定义文件
+├─LICENSE.txt           授权说明文件
+├─README.md             README 文件
+├─think                 命令行入口文件
+</code></pre>
+<p><strong>多应用模式目录结构</strong></p>
+<pre><code>├─app 应用目录
+│  ├─index              主应用
+│  │  ├─controller      控制器目录
+│  │  ├─model           模型目录
+│  │  ├─view            视图目录
+│  │  ├─config          配置目录
+│  │  ├─route           路由目录
+│  │  └─ ...            更多类库目录
+│  │ 
+│  ├─admin              后台应用
+│  │  ├─controller      控制器目录
+│  │  ├─model           模型目录
+│  │  ├─view            视图目录
+│  │  ├─config          配置目录
+│  │  ├─route           路由目录
+│  │  └─ ...            更多类库目录
+│
+├─public                WEB目录（对外访问目录）
+│  ├─admin.php          后台入口文件
+│  ├─index.php          入口文件
+│  ├─router.php         快速测试文件
+│  └─.htaccess          用于apache的重写
+│
+├─config                全局应用配置目录
+├─runtime               运行时目录
+│  ├─index              index应用运行时目录
+│  └─admin              admin应用运行时目录
+</code></pre>
+<h3 id="多应用模式"><a href="#多应用模式" class="headerlink" title="多应用模式"></a>多应用模式</h3><blockquote>
+<p>如果要使用多应用模式，请安装多应用模式扩展think-multi-app</p>
+</blockquote>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">composer require topthink/think-multi-app</span><br></pre></td></tr></table></figure>
+<h3 id="Env环境变量配置"><a href="#Env环境变量配置" class="headerlink" title="Env环境变量配置"></a>Env环境变量配置</h3><blockquote>
+<p>安装ThinkPHP后在项目的根目录<code>.example.env</code>环境变量示例文件，你可以直接改成.env文件后进行修改。</p>
+</blockquote>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 应用调试模式</span><br><span class="line">APP_DEBUG =  true</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>环境变量配置的参数会全部转换为大写，值为<code>off</code>，<code>no</code>和<code>false</code>等效于布尔值<code>false</code>，值为<code>yes</code>、<code>on</code>和<code>true</code>等效于布尔值的<code>true</code></p>
+</blockquote>
+<h3 id="设置环境变量"><a href="#设置环境变量" class="headerlink" title="设置环境变量"></a>设置环境变量</h3><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// 环境变量不支持数组参数，如果需要使用数组参数可以，可以使用</span><br><span class="line">[DATABASE]</span><br><span class="line">USERNAME = root</span><br><span class="line">PASSWORD = 123456</span><br><span class="line"></span><br><span class="line">// 如果要设置一个没有键值的数组参数，可以使用</span><br><span class="line">PATHINFO_PATH[] =  ORIG_PATH_INFO</span><br><span class="line">PATHINFO_PATH[] =  REDIRECT_PATH_INFO</span><br><span class="line">PATHINFO_PATH[] =  REDIRECT_URL</span><br><span class="line"></span><br><span class="line">// 要引用Env门面</span><br><span class="line">use think\facade\Env;</span><br><span class="line">Env::set(&#x27;name&#x27;,&#x27;value)</span><br></pre></td></tr></table></figure>
+
+<h3 id="获取环境变量"><a href="#获取环境变量" class="headerlink" title="获取环境变量"></a>获取环境变量</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 要引用Env门面</span></span><br><span class="line"><span class="keyword">use</span> <span class="title">think</span>\<span class="title">facade</span>\<span class="title">Env</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 环境变量的获取不区分大小写</span></span><br><span class="line"><span class="title class_">Env</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;database.username&#x27;</span>);</span><br><span class="line"><span class="title class_">Env</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;database.password&#x27;</span>);</span><br><span class="line"><span class="title class_">Env</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;PATHINFO_PATH&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取环境变量 如果不存在则使用默认值root</span></span><br><span class="line"><span class="title class_">Env</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;database.username&#x27;</span>, <span class="string">&#x27;root&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 可以直接在配置文件中使用环境变量进行本地环境和服务器的自动配置</span></span><br><span class="line"><span class="keyword">return</span> [</span><br><span class="line">    <span class="string">&#x27;hostname&#x27;</span>  =&gt;  <span class="title class_">Env</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;hostname&#x27;</span>,<span class="string">&#x27;127.0.0.1&#x27;</span>),</span><br><span class="line">];</span><br></pre></td></tr></table></figure>
+
+<h3 id="Config配置"><a href="#Config配置" class="headerlink" title="Config配置"></a>Config配置</h3><blockquote>
+<p>配置文件分为全局配置和应用配置，一般单应用模式的配置文件是属于全局配置文件，而多应用模式的配置文件有全局配置和应用配置，每个应用可以有独立配置文件，相同的配置参数会覆盖全局配置。</p>
+</blockquote>
+<pre><code>├─config（配置目录）
+│  ├─app.php            应用配置
+│  ├─cache.php          缓存配置
+│  ├─console.php        控制台配置
+│  ├─cookie.php         Cookie配置
+│  ├─database.php       数据库配置
+│  ├─filesystem.php     文件磁盘配置
+│  ├─lang.php           多语言配置
+│  ├─log.php            日志配置
+│  ├─middleware.php     中间件配置
+│  ├─route.php          URL和路由配置
+│  ├─session.php        Session配置
+│  ├─trace.php          Trace配置
+│  ├─view.php           视图配置
+│  └─ ...               更多配置文件
+</code></pre>
+<blockquote>
+<p>由于架构设计原因，下面的配置只能在环境变量中修改。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>配置参数</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>app_debug</td>
+<td>应用调试模式</td>
+</tr>
+<tr>
+<td>config_ext</td>
+<td>配置文件后缀</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>要使用Config类，首先需要在你的类文件中引入</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> <span class="title">think</span>\<span class="title">facade</span>\<span class="title">Config</span>;</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="获取配置"><a href="#获取配置" class="headerlink" title="获取配置"></a>获取配置</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获取一级配置的所有的参数（每一个配置文件都是独立的一级配置）</span></span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;app&#x27;</span>);</span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;route&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 读取单个配置参数</span></span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;app.app_name&#x27;</span>);</span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;route.url_domain_root&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 读取数组配置（理论上支持无限级配置参数读取）</span></span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;database.default.host&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="参数批量设置"><a href="#参数批量设置" class="headerlink" title="参数批量设置"></a>参数批量设置</h3><blockquote>
+<p>Config类不再支持动态设置某个配置参数，但可以支持批量设置更新配置参数</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 批量设置参数</span></span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">set</span>([<span class="string">&#x27;name1&#x27;</span> =&gt; <span class="string">&#x27;value1&#x27;</span>, <span class="string">&#x27;name2&#x27;</span> =&gt; <span class="string">&#x27;value2&#x27;</span>], <span class="string">&#x27;config&#x27;</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取配置</span></span><br><span class="line"><span class="title class_">Config</span>::<span class="title function_ invoke__">get</span>(<span class="string">&#x27;config&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="入口文件"><a href="#入口文件" class="headerlink" title="入口文件"></a>入口文件</h3><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">ThinkPHP6.0采用的是单一的入口模式进行项目部署和访问，入口文件位于public目录下面，</span><br><span class="line"></span><br><span class="line">最常见的入口文件就是index.php，可以给每个应用增加入口文件，</span><br><span class="line"></span><br><span class="line">例如给后台应用单独设置的一个入口文件admin.php。</span><br><span class="line"></span><br><span class="line">如果开启自动多应用的话，一般只需要一个入口文件index.php。</span><br></pre></td></tr></table></figure>
+
+<h3 id="静态资源"><a href="#静态资源" class="headerlink" title="静态资源"></a>静态资源</h3><pre><code>网站资源文件访问不会影响正常访问，只有当访问的资源文件不存在时才会解析到入口文件，一般会提示模块不存在的错误。
+
+一般静态资源都是放在public目录下的子目录里，切记，不能放在public以外的目录，包括app目录。建议规范一下
+</code></pre>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">// 静态资源目录结构</span><br><span class="line">public</span><br><span class="line">├─index.php     应用入口文件</span><br><span class="line">├─static        静态资源目录   </span><br><span class="line">│  ├─css        css目录</span><br><span class="line">│  ├─js         js目录</span><br><span class="line">│  └─img        图片目录</span><br><span class="line"></span><br><span class="line">// 访问资源文件的URL路径</span><br><span class="line">http://tp.com/static/css/style.css</span><br><span class="line">http://tp.com/static/js/common.js</span><br><span class="line">http://tp.com/static/img/picture.jpg</span><br></pre></td></tr></table></figure>
+
+<h3 id="URL访问"><a href="#URL访问" class="headerlink" title="URL访问"></a>URL访问</h3><p><strong>单应用模式</strong></p>
+<pre><code>// 域名/入口文件/控制器/方法名
+http://www.tp.com/index.php/index/hello
+</code></pre>
+<p><strong>多应用模式</strong></p>
+<pre><code>// 域名/入口文件/应用/控制器/方法名
+http://www.tp.com/index.php/index/index/hello
+</code></pre>
+<h3 id="隐藏入口文件"><a href="#隐藏入口文件" class="headerlink" title="隐藏入口文件"></a>隐藏入口文件</h3><p>出于优化的URL访问原则，还支持通过URL重写隐藏入口文件，下面以Apache为例说明隐藏应用入口文件index.php的设置<br>下面是Apache的配置过程，可以参考下：</p>
+<blockquote>
+<ul>
+<li>httpd.conf配置文件中加载了mod_rewrite.so模块</li>
+<li>AllowOverride None 将None改为 All</li>
+<li>把下面的内容保存为.htaccess文件放到应用入口文件的同级目录下</li>
+</ul>
+</blockquote>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;IfModule mod_rewrite.c&gt;</span><br><span class="line">  Options +FollowSymlinks -Multiviews</span><br><span class="line">  RewriteEngine On</span><br><span class="line"></span><br><span class="line">  RewriteCond %&#123;REQUEST_FILENAME&#125; !-d</span><br><span class="line">  RewriteCond %&#123;REQUEST_FILENAME&#125; !-f</span><br><span class="line">  RewriteRule ^(.*)$ index.php [L,E=PATH_INFO:$1]</span><br><span class="line">&lt;/IfModule&gt;</span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://github.com/Lutianyao/blog">Sky</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://github.com/Lutianyao/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/01.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/">https://github.com/Lutianyao/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/01.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://github.com/Lutianyao/blog" target="_blank">Sky</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/ThinkPHP/">ThinkPHP</a></div><div class="post_share"><div class="social-share" data-image="https://www.dmoe.cc/random.php" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/02.%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/" title="路由模式"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/2.jpeg" onerror="onerror=null;src='/blog/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">路由模式</div></div></a></div><div class="next-post pull-right"><a href="/blog/2022/10/25/01.%E5%90%8E%E7%AB%AF/03.PHP%E5%BA%94%E7%94%A8/06.%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/" title="PHP正则表达式"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/4.jpeg" onerror="onerror=null;src='/blog/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">PHP正则表达式</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/02.%E8%B7%AF%E7%94%B1%E6%A8%A1%E5%BC%8F/" title="路由模式"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/2.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-26</div><div class="title">路由模式</div></div></a></div><div><a href="/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/03.%E4%B8%AD%E9%97%B4%E4%BB%B6&&%E6%9C%8D%E5%8A%A1&&%E9%97%A8%E9%9D%A2/" title="中间件&amp;&amp;服务&amp;&amp;门面"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/6.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-26</div><div class="title">中间件&amp;&amp;服务&amp;&amp;门面</div></div></a></div><div><a href="/blog/2022/10/26/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/04.%E6%8E%A7%E5%88%B6%E5%99%A8/" title="控制器"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/6.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-10-26</div><div class="title">控制器</div></div></a></div><div><a href="/blog/2022/11/13/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/05.%E6%A8%A1%E5%9E%8B/" title="模型"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/7.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-13</div><div class="title">模型</div></div></a></div><div><a href="/blog/2022/11/13/01.%E5%90%8E%E7%AB%AF/04.ThinkPHP/06.%E8%A7%86%E5%9B%BE/" title="视图"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/7.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-11-13</div><div class="title">视图</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/avatar.png" onerror="this.onerror=null;this.src='/blog/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Sky</div><div class="author-info__description">如果事与愿违，那一定是另有安排</div></div><div class="card-info-data site-data is-center"><a href="/blog/archives/"><div class="headline">文章</div><div class="length-num">57</div></a><a href="/blog/tags/"><div class="headline">标签</div><div class="length-num">6</div></a><a href="/blog/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Lutianyao" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/lutianyao" target="_blank" title="Gitee"><i class="iconfont icon-gitee-fill-round"></i></a><a class="social-icon" href="mailto:1963283930@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/264532360" target="_blank" title="B站"><i class="iconfont icon-bilibili"></i></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.</span> <span class="toc-text">基本介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%80%E4%BB%8B"><span class="toc-number">1.0.1.</span> <span class="toc-text">简介</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85ThinkPHP"><span class="toc-number">1.0.2.</span> <span class="toc-text">安装ThinkPHP</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95%E8%BF%90%E8%A1%8C"><span class="toc-number">1.0.3.</span> <span class="toc-text">测试运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">1.0.4.</span> <span class="toc-text">目录结构</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E5%BA%94%E7%94%A8%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.0.5.</span> <span class="toc-text">多应用模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Env%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE"><span class="toc-number">1.0.6.</span> <span class="toc-text">Env环境变量配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="toc-number">1.0.7.</span> <span class="toc-text">设置环境变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="toc-number">1.0.8.</span> <span class="toc-text">获取环境变量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Config%E9%85%8D%E7%BD%AE"><span class="toc-number">1.0.9.</span> <span class="toc-text">Config配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96%E9%85%8D%E7%BD%AE"><span class="toc-number">1.0.10.</span> <span class="toc-text">获取配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%82%E6%95%B0%E6%89%B9%E9%87%8F%E8%AE%BE%E7%BD%AE"><span class="toc-number">1.0.11.</span> <span class="toc-text">参数批量设置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%A5%E5%8F%A3%E6%96%87%E4%BB%B6"><span class="toc-number">1.0.12.</span> <span class="toc-text">入口文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E8%B5%84%E6%BA%90"><span class="toc-number">1.0.13.</span> <span class="toc-text">静态资源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#URL%E8%AE%BF%E9%97%AE"><span class="toc-number">1.0.14.</span> <span class="toc-text">URL访问</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%9A%90%E8%97%8F%E5%85%A5%E5%8F%A3%E6%96%87%E4%BB%B6"><span class="toc-number">1.0.15.</span> <span class="toc-text">隐藏入口文件</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/05.%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/" title="路由守卫"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/10.jpeg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="路由守卫"/></a><div class="content"><a class="title" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/05.%E8%B7%AF%E7%94%B1%E5%AE%88%E5%8D%AB/" title="路由守卫">路由守卫</a><time datetime="2023-02-10T22:33:56.000Z" title="发表于 2023-02-11 06:33:56">2023-02-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/04.%E6%8E%A5%E5%8F%A3%E5%B0%81%E8%A3%85/" title="接口封装"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/4.jpeg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="接口封装"/></a><div class="content"><a class="title" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/04.%E6%8E%A5%E5%8F%A3%E5%B0%81%E8%A3%85/" title="接口封装">接口封装</a><time datetime="2023-02-10T22:32:25.000Z" title="发表于 2023-02-11 06:32:25">2023-02-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/03.uview/" title="uview"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://img.xjh.me/random_img.php?ctype=acg&amp;return=302&amp;type=bg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="uview"/></a><div class="content"><a class="title" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/03.uview/" title="uview">uview</a><time datetime="2023-02-10T22:30:12.000Z" title="发表于 2023-02-11 06:30:12">2023-02-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/02.%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%8F%8A%E8%AF%AD%E6%B3%95/" title="生命周期及语法"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/9.jpeg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="生命周期及语法"/></a><div class="content"><a class="title" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/02.%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%8F%8A%E8%AF%AD%E6%B3%95/" title="生命周期及语法">生命周期及语法</a><time datetime="2023-02-10T22:25:59.000Z" title="发表于 2023-02-11 06:25:59">2023-02-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/01.%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" title="快速入门"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/blog/img/background/8.jpeg" onerror="this.onerror=null;this.src='/blog/img/404.jpg'" alt="快速入门"/></a><div class="content"><a class="title" href="/blog/2023/02/11/02.%E5%89%8D%E7%AB%AF/04.uni-app/01.%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8/" title="快速入门">快速入门</a><time datetime="2023-02-10T21:49:31.000Z" title="发表于 2023-02-11 05:49:31">2023-02-11</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://img.xjh.me/random_img.php?ctype=acg&amp;return=302&amp;type=bg')"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By Sky</div><div class="footer_custom_text"><a href="http://beian.miit.gov.cn/" target=_blank>粤ICP备2022117511号</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="聊天"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/blog/js/utils.js"></script><script src="/blog/js/main.js"></script><script src="/blog/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/blog/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'g6YkzO2P3TmNkgmUbH0a45sA-gzGzoHsz',
+      appKey: 'DuGXFLBonKCHjVXHVJiMkXse',
+      avatar: 'monsterid',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: false
+    }, null))
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><div class="aplayer no-destroy" data-id="862267106" data-server="tencent" data-type="playlist" data-fixed="true" data-autoplay="true"> </div><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = true;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
