@@ -842,8 +842,8 @@
     
     <entry>
       <title>基本介绍</title>
-      <link href="/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/02.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/"/>
-      <url>/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/02.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</url>
+      <link href="/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/01.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/"/>
+      <url>/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/01.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</url>
       
         <content type="html"><![CDATA[<h1 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h1><h4 id="手册链接"><a href="#手册链接" class="headerlink" title="手册链接"></a>手册链接</h4><ul><li>Vuejs官网：<a href="http://vuejs.org/">http://vuejs.org/</a></li><li>Vuejs中文网：<a href="http://cn.vuejs.org/">http://cn.vuejs.org/</a></li><li>Vite中文网：<a href="https://vitejs.cn/">https://vitejs.cn/</a></li><li>Vue-CLI：<a href="https://cli.vuejs.org/zh/">https://cli.vuejs.org/zh/</a></li><li>Vue-Router：<a href="https://router.vuejs.org/zh/">https://router.vuejs.org/zh/</a></li><li>Vuex：<a href="https://vuex.vuejs.org/zh/">https://vuex.vuejs.org/zh/</a></li></ul><p><strong>MVC</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">视图（View）：用户界面</span><br><span class="line">控制器（Controller）：业务逻辑</span><br><span class="line">模型（Model）：数据保存</span><br></pre></td></tr></table></figure><p><img src="/blog/img/mvc.png" alt="img"></p><p><strong>MVVM</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">MVVM分为三个部分：分别是</span><br><span class="line">M（Model，模型层 ）</span><br><span class="line">V（View，视图层）</span><br><span class="line">VM（ViewModel，V与M连接的桥梁，也可以看作为控制器）</span><br><span class="line"></span><br><span class="line">1、 M：模型层，主要负责业务数据相关；</span><br><span class="line">2、 V：视图层，顾名思义，负责视图相关，细分下来就是html+css层；</span><br><span class="line">3、 VM：V与M沟通的桥梁，负责监听M或者V的修改，是实现MVVM双向绑定的要点；</span><br><span class="line"></span><br><span class="line">MVVM支持双向绑定，意思就是当M层数据进行修改时，VM层会监测到变化，并且通知V层进行相应的修改，</span><br><span class="line">反之修改V层则会通知M层数据进行修改，以此也实现了视图与模型层的相互解耦；</span><br></pre></td></tr></table></figure><p><img src="/blog/img/mvvm.png" alt="img"></p>]]></content>
       
@@ -869,8 +869,8 @@
     
     <entry>
       <title>基本介绍</title>
-      <link href="/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/01.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/"/>
-      <url>/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/01.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</url>
+      <link href="/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/02.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/"/>
+      <url>/blog/2022/11/13/02.%E5%89%8D%E7%AB%AF/02.Vue/05.%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D/</url>
       
         <content type="html"><![CDATA[<h1 id="基本介绍"><a href="#基本介绍" class="headerlink" title="基本介绍"></a>基本介绍</h1><h4 id="手册链接"><a href="#手册链接" class="headerlink" title="手册链接"></a>手册链接</h4><ul><li>Vuejs官网：<a href="http://vuejs.org/">http://vuejs.org/</a></li><li>Vuejs中文网：<a href="http://cn.vuejs.org/">http://cn.vuejs.org/</a></li><li>Vite中文网：<a href="https://vitejs.cn/">https://vitejs.cn/</a></li><li>Vue-CLI：<a href="https://cli.vuejs.org/zh/">https://cli.vuejs.org/zh/</a></li><li>Vue-Router：<a href="https://router.vuejs.org/zh/">https://router.vuejs.org/zh/</a></li><li>Vuex：<a href="https://vuex.vuejs.org/zh/">https://vuex.vuejs.org/zh/</a></li></ul><p><strong>MVC</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">视图（View）：用户界面</span><br><span class="line">控制器（Controller）：业务逻辑</span><br><span class="line">模型（Model）：数据保存</span><br></pre></td></tr></table></figure><p><img src="/blog/img/mvc.png" alt="img"></p><p><strong>MVVM</strong></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">MVVM分为三个部分：分别是</span><br><span class="line">M（Model，模型层 ）</span><br><span class="line">V（View，视图层）</span><br><span class="line">VM（ViewModel，V与M连接的桥梁，也可以看作为控制器）</span><br><span class="line"></span><br><span class="line">1、 M：模型层，主要负责业务数据相关；</span><br><span class="line">2、 V：视图层，顾名思义，负责视图相关，细分下来就是html+css层；</span><br><span class="line">3、 VM：V与M沟通的桥梁，负责监听M或者V的修改，是实现MVVM双向绑定的要点；</span><br><span class="line"></span><br><span class="line">MVVM支持双向绑定，意思就是当M层数据进行修改时，VM层会监测到变化，并且通知V层进行相应的修改，</span><br><span class="line">反之修改V层则会通知M层数据进行修改，以此也实现了视图与模型层的相互解耦；</span><br></pre></td></tr></table></figure><p><img src="/blog/img/mvvm.png" alt="img"></p>]]></content>
       
@@ -1237,9 +1237,9 @@
       
         <tags>
             
-            <tag> PHP </tag>
-            
             <tag> MySQL </tag>
+            
+            <tag> PHP </tag>
             
         </tags>
       
@@ -1266,9 +1266,9 @@
       
         <tags>
             
-            <tag> PHP </tag>
-            
             <tag> MySQL </tag>
+            
+            <tag> PHP </tag>
             
         </tags>
       
